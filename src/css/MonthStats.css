@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Noto+Sans+HK:wght@300;700&family=Open+Sans:wght@600&family=Roboto+Condensed&display=swap');
+
+.month-stats{
+    margin: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 1px 5px 53px 5px rgba(168,168,168,1);
+    -moz-box-shadow: 1px 5px 53px 5px rgba(168,168,168,1);
+    box-shadow: 1px 5px 53px 5px rgba(168,168,168,1);
+    width: 500px;
+    height: 470px;
+    border-radius: 30px;
+}
+
+.month-stats__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 40px 40px 40px 40px;
+}
+
+.month-stats__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header__num{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family:"Noto Sans HK";
+    font-weight: 300;
+    color: rgb(107, 107, 107);
+}
+.header__icon img {
+    transition: .4s;
+    margin-top: 12px;
+    width: 25px;
+    height: 25px;
+}
+
+.header__icon:hover img {
+    transform: rotate(360deg);
+}
+
+.month-stats__value{
+    display: flex;
+}
+
+.value__dollar{
+    margin-top: 15px;
+    margin-right: 10px;
+    font-size: 25px;
+    font-family:"Open Sans";
+    font-weight: 600;
+}
+
+.value__num{
+    font-size: 60px;
+    font-family:"Open Sans";
+    font-weight: 600;
+}
+
+.month-stats__chart{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.month-stats__info-block{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text__title{
+    color: black;
+    font-size: 20px;
+    font-family:"Roboto";
+    font-weight: 500;
+}
+
+.text__description{
+    font-size: 15px;
+    font-family:"Noto Sans HK";
+    font-weight: 300;
+    color: rgb(107, 107, 107);
+}
+
+.info-block__button{
+    transition: .3s;
+    background-color: rgb(63, 58, 158);
+    border-radius: 25px;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    font-size: 15px;
+    font-family:"Noto Sans HK";
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.info-block__button:hover{
+    -webkit-box-shadow: 0px 3px 10px 1px rgb(124, 124, 124);
+    -moz-box-shadow: 0px 3px 10px 1px rgb(124, 124, 124);
+    box-shadow: 0px 3px 10px 1px rgb(124, 124, 124);
+}

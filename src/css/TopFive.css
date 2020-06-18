@@ -1,0 +1,108 @@
+
+
+.top-five{
+    margin: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 1px 5px 53px 5px rgba(168,168,168,1);
+    -moz-box-shadow: 1px 5px 53px 5px rgba(168,168,168,1);
+    box-shadow: 1px 5px 53px 5px rgba(168,168,168,1);
+    width: 400px;
+    height: 470px;
+    border-radius: 30px;
+}
+
+.top-five__container{
+    margin: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-five__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-five__top-active{
+    height:40px;
+    margin-top: 25px;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.top-active__name{
+    font-size: 16px;
+    font-family:"Noto Sans HK";
+    font-weight: 400;
+    color: rgb(107, 107, 107);
+}
+
+.top-active__changePercent{
+    font-size: 16px;
+    font-family:"Open Sans";
+}
+
+
+.ta-green{
+    color: rgb(0, 170, 0);
+}
+
+.ta-red{
+    color: red;
+}
+
+.top-five__circles-container{
+    background-image: url(../img/linesBackground.png);
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.top-five__time-params{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.time-params__day{
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: 500;
+    cursor: pointer; 
+    font-size: 20px;
+}
+
+.time-params__week{
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: 500;
+    cursor: pointer; 
+    font-size: 20px;
+}
+
+.time-params__month{
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: 500;
+    cursor: pointer; 
+    font-size: 20px;
+}
+
+.time-params__year{
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: 500;
+    cursor: pointer; 
+    font-size: 20px;  
+}
+
+.gray{
+    color: rgb(126, 126, 126); 
+}

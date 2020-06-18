@@ -1,0 +1,9 @@
+
+
+.widgets__container{
+    margin: 30px 100px 30px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start; 
+    flex-wrap: wrap;
+}

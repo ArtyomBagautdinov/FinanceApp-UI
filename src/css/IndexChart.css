@@ -1,0 +1,12 @@
+
+
+.portfolio-index__chart{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
+}
+
+.chart__container{
+    margin: 120px 30px 30px 20px;
+}

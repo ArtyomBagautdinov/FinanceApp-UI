@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 245);
+}
+
+.app__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start; 
+}

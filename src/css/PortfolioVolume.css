@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Noto+Sans+HK:wght@300;700&family=Open+Sans:wght@600&family=Roboto+Condensed&display=swap');
+
+.portfolio-volume{
+    margin: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 1px 5px 53px 5px rgba(168,168,168,1);
+    -moz-box-shadow: 1px 5px 53px 5px rgba(168,168,168,1);
+    box-shadow: 1px 5px 53px 5px rgba(168,168,168,1);
+    width: 400px;
+    height: 470px;
+    border-radius: 30px;
+}
+
+.portfolio-volume__container{
+    margin: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.portfolio-volume__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+.header__month{
+    font-size: 17px;
+    font-family:"Noto Sans HK";
+    font-weight: 400;
+    color: rgb(107, 107, 107);
+}
+
+
+.portfolio-volume__tab-bar{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tab-bar__avg , .tab-bar__you , .tab-bar__ai {
+    cursor: pointer;
+    font-size: 18px;
+    font-family:"Roboto";
+    font-weight: 500;
+}
+
+
+.violet {
+    color: rgb(33, 87, 235);
+}

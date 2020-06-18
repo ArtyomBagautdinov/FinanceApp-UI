@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto+Condensed&display=swap');
+
+.chart__legend-block{
+    display: flex;
+    flex-direction: row;
+}
+
+.legent-block__portfolio{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio__line{
+    margin: 8px 10px 0 0;
+    display: block;
+    width: 30px;
+    border-top: 2px solid rgba(247, 207, 155,1);
+}
+
+.portfolio__title{
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgba(247, 207, 155,1);
+}
+
+.legent-block__median{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.median__line{
+    margin: 8px 10px 0 30px;
+    display: block;
+    width: 30px;
+    border-top: 2px dashed rgba(247, 207, 155,1);
+}
+
+.median__title{
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgba(247, 207, 155,1);
+}
