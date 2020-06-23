@@ -48,10 +48,9 @@
 .tab-bar__avg , .tab-bar__you , .tab-bar__ai {
     cursor: pointer;
     font-size: 18px;
-    font-family:"Roboto";
+    font-family: "Noto Sans HK";
     font-weight: 500;
 }
-
 
 .violet {
     color: rgb(33, 87, 235);

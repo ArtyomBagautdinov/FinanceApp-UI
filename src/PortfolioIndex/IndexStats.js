@@ -1,6 +1,6 @@
 import React from 'react';
 import Stock from './Stock.js';
-import '../css/IndexStats.css'
+import '../css/IndexStats.css';
 class IndexStats extends React.Component{
     constructor(){
         super();
