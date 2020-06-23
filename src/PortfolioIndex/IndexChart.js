@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/IndexChart.css'
-import GraphicChart from './GraphicChart';
+import GraphicChart from './GraphicChart.js';
+import ChartLegend from './ChartLegend.js'
 class IndexChart extends React.Component{
     constructor(){
         super();
@@ -10,7 +11,7 @@ class IndexChart extends React.Component{
         return (
             <div className="portfolio-index__chart">
                 <GraphicChart/>
-               
+                <ChartLegend/>
             </div>
         )
     }

@@ -26,8 +26,8 @@ class GraphicChart extends React.Component{
     componentDidMount(){
         const chartCanvas = document.getElementById('indexChart');
         let ctx = chartCanvas.getContext("2d");
-        chartCanvas.width = 400;
-        chartCanvas.height = 200;
+        chartCanvas.width = 480;
+        chartCanvas.height = 230;
         let indexData = {
             labels: ["2013", "2014", "2015", "2016", "2017"],
             datasets: [{
